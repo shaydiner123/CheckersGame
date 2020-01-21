@@ -1,0 +1,60 @@
+
+body{
+   background-color: aqua; 
+}
+
+h1 {
+    color: brown;
+    font-size: 4em;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:1vh 35vw 0 35vw;
+}
+
+#board{
+    margin:2vh 25vw 10vh 25vw;
+    width:40vw;
+    height:40vw;
+    border-style: solid;
+}
+
+.cell{
+    width:5vw;
+    height: 5vw;
+    float: left;
+}
+
+.white_cell{
+    background-color:#FFE4C4;
+}
+.black_cell{
+    background-color:#D2691E;
+}
+
+.no_wrap{
+    clear: both;
+}
+
+.checker{
+    width: 80%;
+    height: 80%;
+    border-radius:50% ;
+    margin:8% auto 5% auto;
+    border:.2vw solid white;
+}
+
+.black_checker{
+    background-color: black;
+}
+
+.white_checker{
+    background-color: red;
+}
+
+#messege{  
+    width:40vw;
+    font-size: 4em;
+    margin:10vh 25vw 10vh 25vw;
+    color:wheat;
+}
